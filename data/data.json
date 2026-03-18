@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "Bánh mì thịt",
+        "price": "20.000",
+        "image": "./img/banh-mi-thit-bo-nuong-thumbnail-1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Bánh mì cá",
+        "price": "15.000",
+        "image": "./img/banh-ca.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Bánh ướt",
+        "price": "20.000",
+        "image": "./img/banh uot2.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Bánh hỏi",
+        "price": "25.000",
+        "image": "./img/banhhoi.webp"
+    },
+    {
+        "id": 5,
+        "title": "Bánh mì chả",
+        "price": "15.000",
+        "image": "./img/chaluaa.jpg"
+    }
+]

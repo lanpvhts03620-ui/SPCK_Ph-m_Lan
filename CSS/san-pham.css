@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+
+}
+
+/* ==HEADER===  */
+/* === navigation ===  */
+header {
+    background-color: #FEF3E2;
+    color: #000000;
+    overflow: hidden;
+}
+
+.container-fluid {
+    padding: 3% 5%;
+}
+
+.color-section {
+    color: #FEF3E2;
+}
+
+.navbar-expand-lg {
+    background-color: #FEF3E2 !important;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: right;
+}
+
+.navbar-brand {
+    width: 100px;
+}
+
+.navbar-brand img {
+    width: 100%;
+}
+
+.nav-link {
+    color: #7e0404;
+    font-size: 1.2rem;
+    font-weight: bold;
+    opacity: 0.5;
+    margin: 10px;
+
+}
+
+.dropdown-menu {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.d-flex>.btn {
+    color: #FA812F;
+    border-color: #FA812F;
+}
+
+.d-flex>.btn:hover {
+    background-color: #FA812F;
+    color: #fff;
+}
+
+.btn-outline-success .me-3 {
+    border-color: #FA812F;
+    box-shadow: 0 0 5px rgba(78, 84, 200, 0.4);
+}
+
+.btn-outline-success {
+    border-color: #FA812F;
+    box-shadow: 0 0 5px rgba(78, 84, 200, 0.4);
+}
+
+/* tilte  */
+
+.big-heading {
+    font-family: "Dancing Script", cursive;
+    font-size: 5.5rem;
+    font-weight: 550;
+    text-align: left;
+    padding: 20%;
+    color: #7d4003;
+}
+
+.col-lg-4 {
+    position: relative;
+}
+
+.title-header .title-img {
+    width: 200%;
+    position: absolute;
+    justify-content: flex-end;
+}
+
+/* MENU  */
+.menu {
+    background-color: #FAB12F;
+    font-family: sans-serif;
+    width: 100%;
+    height: 110vh;
+    text-align: center;
+}
+
+.menu>h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.square {
+    width: 23%;
+    padding-top: 200px;
+    padding-bottom: 40px;
+    height: 450px;
+    border-radius: 20px;
+    border: #000000;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.food {
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 7px;
+    justify-content: center;
+    align-items: center;
+}
+
+.food>img {
+    width: 280px;
+    height: 50vh;
+    object-fit: cover;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+
+.food>h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    color: #7e0404;
+    margin: 0;
+}
+
+.food>p {
+    margin: 0 0;
+    color: #a23a06;
+}
+
+.food>button {
+    margin-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    font-size: 1rem;
+}
+
+/* details  */
+.gallery {
+    text-align: center;
+    background-color: #FEF3E2;
+    font-family: sans-serif;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    background-color: #FEF3E2;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+    background-color: #FEF3E2;
+    border: none;
+}
+
+.gallery>h2 {
+    font-size: 4rem;
+    background-color: #FEF3E2;
+    align-items: flex-start;
+    padding-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card>img {
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    margin: -15px -15px;
+    transition: all 0.5s;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #FEF3E2;
+    box-shadow: 0 0 5px rgba(78, 84, 200, 0.4);
+    z-index: 10;
+}
+
+.card>img:hover {
+    transform: scale(0.9);
+    background-color: #FEF3E2;
+    box-shadow: 0 0 5px rgba(78, 84, 200, 0.4);
+    z-index: 11;
+}
+
+/* FOOTER  */
+/* footer  */
+footer {
+    text-align: center;
+    background-color: #FA812F;
+    padding: 30px 30px;
+    width: 100%;
+}
+
+.container-fluid>img {
+    width: 100%;
+    height: 100vh;
+}
+
+.container-fluid>.btn {
+    margin-top: 50px;
+    font-size: 2rem;
+    color: #fff;
+    box-shadow: #000000;
+    transition: transform 0.5s;
+}
+
+.container-fluid>.btn:hover {
+    opacity: 0.7;
+    transform: translateY(-6px)
+}
+
+.copyright {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.copyright>a {
+    color: #fff;
+}
